@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Poppins", sans-serif ;
+}
+:root{
+    --padding-1: .75rem;
+    --border-radius-1: 1px 4px;
+    --blue-1: #0073a4;
+}
+
+body{
+    font-family: "Poppins, sans-serif";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    height: 100vh;
+}
+h1{
+    margin: 30px 0 50px 0;
+    text-align: center;
+    width: 53%;
+    color:#c81d1d;
+}
+h1 span{
+    color: #001bc1;
+}
+
+.clube{
+    margin:  2rem 4rem 2rem;
+    display: flex;
+    flex-direction:column;
+    width: 30%;
+    padding: 1rem;
+    box-shadow: rgba(11, 11, 11, 0.25) 0px 30px 60px -12px inset, rgba(38, 37, 37, 0.3) 0px 18px 36px -18px inset;
+    border-radius: 8px;
+    border: solid 1px #f13737;
+
+}
+.regatas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:6px;
+}
+
+.regatas h2{
+    font-size: 1.5hem;
+
+}
+
+input, 
+select{
+    padding:var(--padding-1);
+    border:none;
+    border-radius: 4px;
+    background-color: #c0ecff;
+    margin: 10px 0 1rem 0;
+}
+
+input:focus{
+outline: solid 1px var(--blue-1);
+}
+
+button{
+  background-color: rgb(137, 11, 11);
+  border:none;
+  padding:var(--padding-1);
+  border-radius: var(--border-radius-1);
+  color:#f0eded;
+  
+}
+button:hover{
+    background-color: rgba(108, 11, 73, 0.566);  
+    cursor: pointer;
+}
+#forget-pass{
+    width: fit-content;
+    margin-left:auto;
+    font-size: 15px;
+    font-weight: 600;
+    color: #121213;
+}
+
+#singup{
+    padding: 1.5rem;
+    border-top: solid var(--blue-1);
+    margin-top: 1rem;
+}
+
+#singup a {
+    border-radius: var(--border-radius-1);
+    background-color: rgb(137, 11, 11);
+    color:#f0eded;
+    cursor:pointer;
+    display: block;
+    text-align: center; 
+    width: 100%;
+}
+#singup a:hover{
+    background-color: rgba(221, 17, 146, 0.566);  
+    cursor: pointer;
+
+}
+.terms{
+    display: flex;
+    align-items: start;
+    gap: 10px;
+    margin: 1rem 0;
+
+}
+.terms input{
+    margin: 0;
+}
+.terms label{
+    font-size: 14px;
+}
+

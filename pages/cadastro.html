@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/img/favicon.ico" type="imagem/x-icon">
+    <link rel="stylesheet" href="../styles/cadastro.css">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <div class="form">
+        <form><br>
+            <h1>Sistema de clientes</h1><br>
+            <h2>Cadastro</h2><br><br>
+            <label for="nome>Nome">Nome:</label>
+            <input type="text" size="40" placeholder="Nome Completo">
+            <label for="cpf">CPF:</label>
+            <input type="text" placeholder="000.000.000-00">
+            <label for="email">Email:</label>
+            <input type="text" placeholder="Digite seu mail...">
+            <label for="rg">RG:</label>
+            <input type="text" placeholder="000.000.000-00"><br><br>
+            <label for="mas">Masculino</label>
+            <input type="radio" name="opcao" id="op1">
+            <label for="fem">Feminino"</label>
+            <input type="radio" name="opcao" id="op1">
+            <label for="outro">Outros</label>
+            <input type="radio" name="opcao" id="op1"><br><br>
+            <label for="data">Data Nascimento:</label>
+            <input type="date" name="data" id="data"><br><br>
+            <h2>Endereço</h2><br>
+            <label for="estado"></label><br><br>
+            <label for="uf">Estado:</label>
+            <select name="estado" id="uf">
+                <option value="0">Escolha sua Região:
+                    <optngrup label="Norte"></optngrup>
+                <Option value="1">Acre</Option>
+                <Option value="2">Amazonas</Option>
+                <Option value="3">Amapá</Option>
+                <Option value="4">Pará</Option>
+                <Option value="5">Rondânia</Option>
+                <Option value="6">Roraima</Option>
+                <Option value="7">Tocantins</Option>
+                </option>
+                <optngrup label="Nodeste">
+                    <Option value="8">Alagoas</Option>
+                    <Option value="9">Bahia</Option>
+                    <Option value="10">Ceará</Option>
+                    <Option value="11">Maranhão</Option>
+                    <Option value="12">Piauí</Option>
+                    <Option value="13">Pernambuco</Option>
+                    <Option value="14">Paraíba</Option>
+                    <Option value="15">Rio Grande do Sul</Option>
+                    <Option value="16">Sergipe</Option>
+                </optngrup>
+
+                <optngrup label="Centro-Oeste">
+                    <Option value="17">Goiás</Option>
+                    <Option value="18">Mato Grosso</Option>
+                    <Option value="19">Mato Grosso do Sul</Option>
+                    <Option value="20">Distrito Federal</Option>
+
+                </optngrup>
+                <optngrup label="Sudeste">
+                    <Option value="21">Espirito Santo</Option>
+                    <Option value="22">Minas Gerais</Option>
+                    <Option value="23">Rio de Janeiro</Option>
+                    <Option value="24">São Paulo</Option>
+                </optngrup>
+
+                <optngrup label="Sul">
+                    <Option label="25">Paraná</Option>
+                    <Option label="26">Rio Grande do Sul</Option>
+                    <Option label="27">Santa Catarina</Option>
+                </optngrup>
+
+            </select>
+            <label for="cidade">Cidade:</label>
+            <input type="text" placeholder="Cidade"><br><br>
+            <label for="cep">CEP:</label>
+            <input type="text" placeholder="00000-000">
+            <label for="bairro">Bairro:</label>
+            <input type="text" placeholder="Bairro"><br><br>
+            <label for="rua">Rua</label>
+            <input type="text" size="30" placeholder="logradouro">
+            <label for="nu">Número</label>
+            <input type="text" size="5" placeholder="Número"><br><br>
+            <label for="comp">Complemento</label>
+            <input type="text" size="30" placeholder="Andar, Apartamento, Bloco"><br><br>
+            <input type="submit" value="Enviar"> &nbsp; &nbsp;
+            <input type="submit" value="Voltar">
+        </form>
+    </div>
+</body>
+
+</html>
